@@ -22,6 +22,14 @@
             ]
           },
           {
+            "group": "پنل مدیریت",
+            "pages": [
+              "admin/business",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
             "group": "ملزومات",
             "pages": [
               "essentials/markdown",

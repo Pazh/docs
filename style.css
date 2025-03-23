@@ -40,3 +40,17 @@ footer {
     margin-left: calc(.625rem* var(--tw-space-x-reverse));
     margin-right: calc(.625rem* calc(1 - var(--tw-space-x-reverse)));
 }
+
+.rotate-0 {
+    --tw-rotate: 180deg;
+}
+
+.right-5 {
+    left: 1.25rem;
+    right: auto;
+}
+
+.mr-4 {
+    margin-left: 1rem;
+    margin-right: 0;
+}

@@ -5,9 +5,9 @@
   padding: 1rem;
 }
 
-body {
+body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
   direction: rtl;
-  font-family: "Vazirmatn", sans-serif;
+  font-family: "Vazirmatn", sans-serif !important;
 }
 
 footer {

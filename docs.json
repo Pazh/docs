@@ -10,9 +10,11 @@
   "direction": "rtl",
   "font": {
     "headings": {
+          "url": "https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap",
       "family": "Vazirmatn"
     },
     "body": {
+          "url": "https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap",
       "family": "Vazirmatn"
     }
   },

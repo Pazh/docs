@@ -6,6 +6,10 @@ body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
   font-family: "Vazirmatn", sans-serif !important;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-weight: 800;
+}
+
 @media (min-width: 1024px){
     .lg\:pl-\[23\.7rem\] {
         padding-right: 23.7rem;

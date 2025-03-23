@@ -39,6 +39,11 @@ h1, h2, h3, h4, h5, h6{
     margin-left: calc(.625rem* var(--tw-space-x-reverse));
     margin-right: calc(.625rem* calc(1 - var(--tw-space-x-reverse)));
 }
+.space-x-4>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-left: calc(1rem* var(--tw-space-x-reverse));
+    margin-right: calc(1rem* calc(1 - var(--tw-space-x-reverse)));
+}
 
 .space-x-3>:not([hidden])~:not([hidden]) {
     --tw-space-x-reverse: 0;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
 #navbar {
   background: "#000000";
   padding: 1rem;
@@ -5,6 +7,7 @@
 
 dody {
   direction: rtl;
+  font-family: Vazirmatn;
 }
 
 footer {
@@ -15,5 +18,13 @@ footer {
     .lg\:pl-\[23\.7rem\] {
         padding-right: 23.7rem;
         padding-left: 0;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .lg\:-ml-12 {
+        margin-left: 0;
+        margin-right: -3rem;
     }
 }

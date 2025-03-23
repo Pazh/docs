@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Pazh Docs",
+  "name": "مستندات",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,10 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "راهنما",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "شروع",
             "pages": [
               "introduction",
               "quickstart",
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "ملزومات",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -35,16 +35,16 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "وب سرویس",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "وب سرویس",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "راهنما",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
@@ -58,19 +58,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "سامانه مدیران",
           "href": "https://admin.pazh.net/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "anchor": "سامانه کاربران",
           "href": "https://admin.pazh.net/docs",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://admin.pazh.net/docs",
-          "icon": "newspaper"
         }
       ]
     }
@@ -82,13 +77,13 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "پشتیبانی",
         "href": "mailto:info@pazh.net"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "داشبورد",
       "href": "https://admin.pazh.net"
     }
   }

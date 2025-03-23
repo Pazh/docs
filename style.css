@@ -39,7 +39,7 @@ body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
     margin-right: calc(.75rem* calc(1 - var(--tw-space-x-reverse)));
 }
 
-.footer{
+#footer{
     display: none;
 }
 

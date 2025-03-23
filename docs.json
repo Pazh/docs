@@ -10,10 +10,10 @@
   "direction": "rtl",
   "font": {
     "headings": {
-      "family": "tahoma",
+      "family": "Tahoma",
     },
     "body": {
-      "family": "tahoma"
+      "family": "Tahoma"
     }
   },
   "favicon": "/favicon.svg",

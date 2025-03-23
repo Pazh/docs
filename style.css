@@ -3,6 +3,10 @@
   padding: 1rem;
 }
 
+p{
+  direction: rtl;
+}
+
 footer {
   margin-top: 2rem;
 }

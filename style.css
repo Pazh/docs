@@ -10,7 +10,7 @@ body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
 
 }
 h1, h2, h3, h4, h5, h6{
-  font-weight: 800;
+  font-weight: 900 !important;
 }
 
 @media (min-width: 1024px){

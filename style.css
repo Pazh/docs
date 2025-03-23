@@ -33,8 +33,22 @@ body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
     margin-right: calc(.625rem* calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-3>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-left: calc(.75rem* var(--tw-space-x-reverse));
+    margin-right: calc(.75rem* calc(1 - var(--tw-space-x-reverse)));
+}
+
+.footer{
+    display: none;
+}
+
 .rotate-0 {
     --tw-rotate: 180deg;
+}
+
+.rotate-180 {
+    --tw-rotate: 0;
 }
 
 .right-5 {

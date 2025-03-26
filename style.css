@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
 
-
 body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
-  direction: rtl;
+  direction: rtl !important;
   font-family: "Vazirmatn", sans-serif !important;
 }
+
 .codeblock-dark,
 .codeblock-light,
 .codeblock,
 #table-of-contents{
-    direction: ltr;
-
+    direction: ltr !important;
 }
+
 h1, h2, h3, h4, h5, h6{
   font-weight: 900 !important;
 }
@@ -38,32 +38,32 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .space-x-6>:not([hidden])~:not([hidden]) {
-    --tw-space-x-reverse: 0;
+    --tw-space-x-reverse: 0 !important;
     margin-left: calc(1.5rem* var(--tw-space-x-reverse)) !important;
     margin-right: calc(1.5rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .space-x-2\.5>:not([hidden])~:not([hidden]) {
-    --tw-space-x-reverse: 0;
+    --tw-space-x-reverse: 0 !important;
     margin-left: calc(.625rem* var(--tw-space-x-reverse)) !important;
     margin-right: calc(.625rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .space-x-4>:not([hidden])~:not([hidden]) {
-    --tw-space-x-reverse: 0;
+    --tw-space-x-reverse: 0 !important;
     margin-left: calc(1rem* var(--tw-space-x-reverse)) !important;
     margin-right: calc(1rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .space-x-3>:not([hidden])~:not([hidden]) {
-    --tw-space-x-reverse: 0;
+    --tw-space-x-reverse: 0 !important;
     margin-left: calc(.75rem* var(--tw-space-x-reverse)) !important;
     margin-right: calc(.75rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .prose :where(ul>li):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    padding-right: 2em !important !important;
-    padding-left: 0 !important !important;
+    padding-right: 2em !important;
+    padding-left: 0 !important;
 }
 
 .prose :where(ul>li):not(:where([class~=not-prose],[class~=not-prose] *)):before{
@@ -85,15 +85,15 @@ body :is(.ml-auto) {
 }
 
 .right-5 {
-    left: 1.25rem;
-    right: auto;
+    left: 1.25rem !important;
+    right: auto !important;
 }
 
 .mr-4 {
-    margin-left: 1rem;
-    margin-right: 0;
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
 }
 .-ml-10 {
-    margin-right: -2.5rem;
-    margin-left: 0;
+    margin-right: -2.5rem !important;
+    margin-left: 0 !important;
 }

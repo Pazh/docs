@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6{
     margin-left: calc(.625rem* var(--tw-space-x-reverse));
     margin-right: calc(.625rem* calc(1 - var(--tw-space-x-reverse)));
 }
+
 .space-x-4>:not([hidden])~:not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-left: calc(1rem* var(--tw-space-x-reverse));
@@ -53,10 +54,12 @@ h1, h2, h3, h4, h5, h6{
     margin-left: calc(.75rem* var(--tw-space-x-reverse));
     margin-right: calc(.75rem* calc(1 - var(--tw-space-x-reverse)));
 }
+
 .prose :where(ul>li):not(:where([class~=not-prose],[class~=not-prose] *)) {
     padding-right: 2em !important;
     padding-left: 0 !important;
 }
+
 .prose :where(ul>li):not(:where([class~=not-prose],[class~=not-prose] *)):before{
     right: .5em;
     left: 0;

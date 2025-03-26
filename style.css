@@ -72,11 +72,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .rotate-0 {
-    --tw-rotate: 180deg;
+    --tw-rotate: 180deg !important;
 }
 
 .rotate-180 {
-    --tw-rotate: 0;
+    --tw-rotate: 0 !important;
+}
+
+body :is(.ml-auto) {
+    margin-right: auto !important;
+    margin-left: 0 !important;
 }
 
 .right-5 {

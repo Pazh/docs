@@ -23,6 +23,7 @@
           },
           {
             "group": "پنل مدیریت",
+            "icon": "book-open-cover",
             "pages": [
               "admin/business",
               "quickstart",
@@ -67,12 +68,12 @@
       "anchors": [
         {
           "anchor": "سامانه مدیران",
-          "href": "https://admin.pazh.net/docs",
+          "href": "https://admin.pazh.net/",
           "icon": "book-open-cover"
         },
         {
           "anchor": "سامانه کاربران",
-          "href": "https://admin.pazh.net/docs",
+          "href": "https://p-id.ir/",
           "icon": "slack"
         }
       ]

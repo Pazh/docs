@@ -18,55 +18,57 @@ h1, h2, h3, h4, h5, h6{
 
 @media (min-width: 1024px){
     .lg\:pl-\[23\.7rem\] {
-        padding-right: 23.7rem;
-        padding-left: 0;
+        padding-right: 23.7rem !important;
+        padding-left: 0 !important;
     }
-}
 
-
-@media (min-width: 1024px) {
     .lg\:-ml-12 {
-        margin-left: 0;
-        margin-right: -3rem;
+        margin-left: 0 !important;
+        margin-right: -3rem !important;
+    }
+  
+    body :is(.lg\:pl-\[23\.7rem\]) {
+        padding-left: 0 !important;
+        padding-right: 23.7rem !important;
+    }
+      body :is(.lg\:-ml-12) {
+        margin-left: 0 !important;
+        margin-right: -3rem !important;
     }
 }
 
 .space-x-6>:not([hidden])~:not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-left: calc(1.5rem* var(--tw-space-x-reverse));
-    margin-right: calc(1.5rem* calc(1 - var(--tw-space-x-reverse)));
+    margin-left: calc(1.5rem* var(--tw-space-x-reverse)) !important;
+    margin-right: calc(1.5rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .space-x-2\.5>:not([hidden])~:not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-left: calc(.625rem* var(--tw-space-x-reverse));
-    margin-right: calc(.625rem* calc(1 - var(--tw-space-x-reverse)));
+    margin-left: calc(.625rem* var(--tw-space-x-reverse)) !important;
+    margin-right: calc(.625rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .space-x-4>:not([hidden])~:not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-left: calc(1rem* var(--tw-space-x-reverse));
-    margin-right: calc(1rem* calc(1 - var(--tw-space-x-reverse)));
+    margin-left: calc(1rem* var(--tw-space-x-reverse)) !important;
+    margin-right: calc(1rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .space-x-3>:not([hidden])~:not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-left: calc(.75rem* var(--tw-space-x-reverse));
-    margin-right: calc(.75rem* calc(1 - var(--tw-space-x-reverse)));
+    margin-left: calc(.75rem* var(--tw-space-x-reverse)) !important;
+    margin-right: calc(.75rem* calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .prose :where(ul>li):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    padding-right: 2em !important;
-    padding-left: 0 !important;
+    padding-right: 2em !important !important;
+    padding-left: 0 !important !important;
 }
 
 .prose :where(ul>li):not(:where([class~=not-prose],[class~=not-prose] *)):before{
-    right: .5em;
-    left: 0;
-}
-
-#footer{
-    display: none;
+    right: .5em !important;
+    left: 0 !important;
 }
 
 .rotate-0 {

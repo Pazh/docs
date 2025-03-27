@@ -26,7 +26,17 @@
             "icon": "book-open-cover",
             "pages": [
               "admin/menu",
-              "admin/business"
+              "admin/dashboard",
+              "admin/acl",
+              "admin/user",
+              "admin/app",
+              "admin/content",
+              "admin/business",
+              "admin/person",
+              "admin/product",
+              "admin/page",
+              "admin/person",
+              //"admin/person"
             ]
           }
         ]

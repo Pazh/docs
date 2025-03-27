@@ -47,7 +47,7 @@
               "admin/wallet",
               "admin/short-link",
               "admin/analytics",
-              "admin/location",
+              "admin/region",
               "admin/cart",
               "admin/scraper",
               "admin/storage"

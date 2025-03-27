@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "./pazh.png",
+  "favicon": "/pazh.png",
   "navigation": {
     "tabs": [
       {
@@ -16,7 +16,9 @@
           {
             "group": "طرح",
             "pages": [
-              "introduction"
+              "introduction",
+              "projects",
+              "links"
             ]
           },
           {
@@ -24,7 +26,15 @@
             "icon": "book-open-cover",
             "pages": [
               "admin/menu",
-              "admin/business"
+              "admin/dashboard",
+              "admin/acl",
+              "admin/user",
+              "admin/app",
+              "admin/content",
+              "admin/business",
+              "admin/person",
+              "admin/product",
+              "admin/page"
             ]
           }
         ]
@@ -54,7 +64,7 @@
       "anchors": [
         {
           "anchor": "سامانه مدیران",
-          "href": "https://admin.pazh.net/",
+          "href": "https://admin.exir.cloud/",
           "icon": "book-open-cover"
         },
         {
@@ -79,7 +89,7 @@
     "primary": {
       "type": "button",
       "label": "داشبورد",
-      "href": "https://admin.pazh.net"
+      "href": "https://admin.exir.cloud/"
     }
   }
 }

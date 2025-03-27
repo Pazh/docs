@@ -27,14 +27,30 @@
             "pages": [
               "admin/menu",
               "admin/dashboard",
-              "admin/acl",
               "admin/user",
-              "admin/app",
+              "admin/acl",
+              "admin/apps",
               "admin/content",
               "admin/business",
               "admin/person",
               "admin/product",
-              "admin/page"
+              "admin/page",
+              "admin/pricing",
+              "admin/orders",
+              "admin/comments",
+              "admin/chat",
+              "admin/event",
+              "admin/campaign",
+              "admin/crm",
+              "admin/form",
+              "admin/notification",
+              "admin/wallet",
+              "admin/short-link",
+              "admin/analytics",
+              "admin/location",
+              "admin/cart",
+              "admin/scraper",
+              "admin/storage"
             ]
           }
         ]

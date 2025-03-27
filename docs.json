@@ -14,31 +14,17 @@
         "tab": "راهنما",
         "groups": [
           {
-            "group": "شروع",
+            "group": "طرح",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           },
           {
             "group": "پنل مدیریت",
             "icon": "book-open-cover",
             "pages": [
-              "admin/business",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "ملزومات",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "admin/menu",
+              "admin/business"
             ]
           }
         ]

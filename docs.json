@@ -34,9 +34,7 @@
               "admin/business",
               "admin/person",
               "admin/product",
-              "admin/page",
-              "admin/person",
-              //"admin/person"
+              "admin/page"
             ]
           }
         ]

@@ -71,6 +71,10 @@ h1, h2, h3, h4, h5, h6{
     left: 0 !important;
 }
 
+#footer{
+  display: none;
+}
+
 .rotate-0 {
     --tw-rotate: 180deg !important;
 }
@@ -96,4 +100,9 @@ body :is(.ml-auto) {
 .-ml-10 {
     margin-right: -2.5rem !important;
     margin-left: 0 !important;
+}
+
+.ml-4 {
+    margin-left: 0 !important;
+    margin-right: 1rem !important;
 }

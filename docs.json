@@ -54,7 +54,7 @@
       "anchors": [
         {
           "anchor": "سامانه مدیران",
-          "href": "https://admin.pazh.net/",
+          "href": "https://admin.exir.cloud/",
           "icon": "book-open-cover"
         },
         {
@@ -79,7 +79,7 @@
     "primary": {
       "type": "button",
       "label": "داشبورد",
-      "href": "https://admin.pazh.net"
+      "href": "https://admin.exir.cloud/"
     }
   }
 }

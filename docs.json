@@ -14,11 +14,9 @@
         "tab": "راهنما",
         "groups": [
           {
-            "group": "طرح",
+            "group": "پاژ",
             "pages": [
-              "introduction",
-              "projects",
-              "links"
+              "introduction"
             ]
           },
           {
@@ -74,7 +72,25 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "پروژه‌ها",
+        "groups": [
+          {
+            "group": "وب سرویس",
+            "pages": [
+              "projects/home"
+            ]
+          },
+          {
+            "group": "دایرکتوری",
+            "pages": [
+              "projects/iranarabic"
+            ]
+          }
+        ]
       }
+
     ],
     "global": {
       "anchors": [

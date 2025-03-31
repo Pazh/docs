@@ -8,6 +8,9 @@ body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
 .codeblock-dark,
 .codeblock-light,
 .codeblock,
+.codeblock-dark *,
+.codeblock-light *,
+.codeblock *,
 #table-of-contents{
     direction: ltr !important;
 }

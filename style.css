@@ -13,6 +13,7 @@ body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
 .codeblock *,
 #table-of-contents{
     direction: ltr !important;
+    font-family: "Vazirmatn", sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{

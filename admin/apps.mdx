@@ -120,7 +120,10 @@ icon: "globe"
             "logo": "https://s2.webstatic.net/business/eram-restaurant-669/1736241263941203-512x512.webp",
             "icon": "https://s2.webstatic.net/business/eram-restaurant-669/1736241263941203-512x512.webp",
             "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-            "type": "localBusiness",
+            "video": null,
+            "audio": null,
+            "type": "medical",
+			"theme": "pardis",
             "defaultLanguage": "fa",
             "multiLang": true,
             "supportedLanguages": [
@@ -128,7 +131,6 @@ icon: "globe"
                 "en",
                 "ar"
             ],
-            "theme": "dark",
             "color": "#FF5733",
             "navigation": [
                 {
@@ -213,12 +215,39 @@ icon: "globe"
             "mainBusinessId": "1d9ad3c9-2e9a-491a-9269-29f4bf0e1959",
             "businessIds": null,
             "domain": "www.kakhclinic.com",
-            "filter": null,
-            "categories": null,
+            "filter": [
+				{
+					"type": "post",
+					"filter": {
+						"tag": [
+							"XXXXXXXXXXXX",
+							"XXXXXXXXXXXX"
+						]
+					},
+					"values": [
+						"XXXXXXXXXXXX",
+						"XXXXXXXXXXXX"
+					]
+				}
+			],
+            "categories": [
+                {
+                    "type": "post",
+                    "values": [
+                        "78945c5d-ddcb-4d6d-a85b-f284e223f35f",
+                        "ff0048b1-89a9-4ec4-813c-5f94718e245e"
+                    ]
+                }
+            ],
             "thirdParties": [
                 {
-                    "name": "Google Analytics",
+                    "name": "google-analytics",
                     "type": "analytics",
+                    "value": "UA-12345678-1"
+                },
+                {
+                    "name": "bing-verification",
+                    "type": "verification",
                     "value": "UA-12345678-1"
                 }
             ],
@@ -226,27 +255,12 @@ icon: "globe"
                 ...
             ],
             "status": "active",
-            "plan": "free",
-            "createdAt": "2023-10-01T12:00:00Z",
-            "expiredAt": "2024-10-01T12:00:00Z",
-            "updatedAt": "2023-10-01T12:00:00Z",
-            "updatedBy": "admin",
-            "createdBy": "admin",
             "tag": [
-                "",
-                ""
-            ],
-            "headScript": "<script>alert('Hello!');</script>",
-            "bodyScript": "<script>console.log('Body script loaded');</script>",
-            "verification": {
-                "bing": "ABC789",
-                "google": "XYZ123",
-                "yandex": "LMN456",
-                "pinterest": "GHI345",
-                "facebook": "JKL678"
-            }
+                "XXXXX",
+                "XXXXX"
+            ]
         },
-        "categoriesData": "null"
+        "categoriesData": []
     }
 }
 ```

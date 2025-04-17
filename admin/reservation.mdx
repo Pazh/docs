@@ -1,8 +1,35 @@
 ---
-title:"رزرواسیون"
-description: "دسترسی به اطلاعات جامع و به‌روز"
-icon: "briefcase"
-mode: "wide"
+title: "رزرواسیون"
+description: "Description of your new file."
 ---
 
 ## ساختار کلی
+
+### **1. رزرو زمان برای یک فرد خاص (مثلاً پزشک، مشاوره)**
+
+فرض کنیم شما می‌خواهید نوبت برای یک مشاوره رزرو کنید. این ساختار شامل اطلاعات کاربر، مشاوره‌دهنده (پزشک یا مشاور) و زمان‌بندی است.
+
+```json
+{
+  "reservation": {
+    "id": "r001",
+    "user_id": "u123",
+    "service_id": "s456",
+    "provider": {
+      "id": "p789",
+      "name": "Dr. Ali Rezaei",
+      "specialization": "Psychologist"
+    },
+    "date": "2025-04-20",
+    "start_time": "15:00",
+    "end_time": "15:30",
+    "status": "confirmed",
+    "payment": {
+      "status": "paid",
+      "amount": 200000,
+      "method": "online"
+    },
+    "notes": "Please be on time."
+  }
+}
+```

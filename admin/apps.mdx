@@ -246,9 +246,18 @@ icon: "globe"
 
 ## Hero Sections
 
-### Image
+Content
 
 ```json
+{
+    "id": "XXXXXXXXXXXX",
+    "type": "contenBuilder"
+}
+```
+
+### Image
+
+```json [expandable]
 {
   "type": "hero",
   "template": "image",
@@ -295,33 +304,39 @@ icon: "globe"
 }
 ```
 
-### Box
+### Grid Box
 
 ```json
 {
-  "title": "خدمات ما",
-  "subtitle": "با خدمات متنوع ما آشنا شوید",
-  "button": {
-    "text": "همه",
-    "link": "/services"
-  },
-  "cards": [
-    {
-      "title": "طراحی سایت",
-      "image": "/images/services/web-design.jpg",
-      "link": "/services/web-design"
-    },
-    {
-      "title": "سئو و بهینه‌سازی",
-      "image": "/images/services/seo.jpg",
-      "link": "/services/seo"
-    },
-    {
-      "title": "تولید محتوا",
-      "image": "/images/services/content.jpg",
-      "link": "/services/content"
-    }
-  ]
+    "type": "grid-box",
+    "template": "grid-1",
+    "value": [
+        {
+            "title": "خدمات ما",
+            "subtitle": "با خدمات متنوع ما آشنا شوید",
+            "button": {
+                "text": "همه",
+                "link": "/services"
+            },
+            "cards": [
+                {
+                    "title": "طراحی سایت",
+                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
+                    "link": "/services/web-design"
+                },
+                {
+                    "title": "سئو و بهینه‌سازی",
+                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
+                    "link": "/services/seo"
+                },
+                {
+                    "title": "تولید محتوا",
+                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
+                    "link": "/services/content"
+                }
+            ]
+        }
+    ]
 }
 ```
 
@@ -363,7 +378,7 @@ icon: "globe"
                         "ar": "خدمات تصميم المواقع، تحسين محركات البحث، وإعلانات Google",
                         "en": "Website design, SEO, and Google Ads services"
                     },
-                    "image": "/images/businesses/nikweb.jpg",
+                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
                     "label": {
                         "fa": "طراحی سایت",
                         "ar": "تصميم مواقع",
@@ -450,7 +465,7 @@ icon: "globe"
                         "ar": "صوت عالي وبطارية قوية",
                         "en": "High-quality sound and powerful battery"
                     },
-                    "image": "/images/products/headphones.jpg",
+                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
                     "label": {
                         "fa": "الکترونیک",
                         "ar": "إلكترونيات",
@@ -529,7 +544,7 @@ icon: "globe"
                         "ar": "في هذا المقال نتعرف على تقنيات التسويق الاحترافية.",
                         "en": "This article introduces professional marketing techniques."
                     },
-                    "image": "/images/blog/marketing-tips.jpg",
+                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
                     "label": {
                         "fa": "بازاریابی",
                         "ar": "تسويق",
@@ -538,7 +553,7 @@ icon: "globe"
                     "url": "/blog/5-tips-marketing",
                     "author": {
                         "name": "محمد رضایی",
-                        "avatar": "/images/authors/m-rezaei.jpg"
+                        "avatar": "https://s2.webstatic.net/business/eram-restaurant-669/1736241263941203-512x512.webp"
                     },
                     "date": "2025-04-10",
                     "readingTime": {

@@ -174,32 +174,6 @@ icon: "globe"
                     "order": "4"
                 }
             ],
-            "tabBar": [
-                {
-                    "icon": "solar:home-broken",
-                    "link": "/home",
-                    "type": "link",
-                    "order": "1"
-                },
-                {
-                    "icon": "solar:calendar-broken",
-                    "link": "/appointments",
-                    "type": "link",
-                    "order": "2"
-                },
-                {
-                    "icon": "solar:tooth-broken",
-                    "link": "/services",
-                    "type": "link",
-                    "order": "3"
-                },
-                {
-                    "icon": "solar:phone-broken",
-                    "link": "/contact",
-                    "type": "link",
-                    "order": "4"
-                }
-            ],
             "actionButton": [
                 {
                     "url": "/form/appointments",
@@ -313,7 +287,8 @@ icon: "globe"
         "buttonBackgroundColor": "#FF5722",
         "buttonTextColor": "#ffffff",  
         "overlay": true,
-        "alignment": "bottom-center"
+        "alignment": "bottom-center",
+		"textAlignment": "right"
       }
     }
   ]
@@ -354,72 +329,78 @@ icon: "globe"
 
 ```json
 {
-  "title": {
-    "fa": "کسب‌وکارهای پیشنهادی",
-    "ar": "الأعمال المقترحة",
-    "en": "Recommended Businesses"
-  },
-  "subtitle": {
-    "fa": "برترین کسب‌وکارها را بر اساس امتیاز و محبوبیت مرور کنید",
-    "ar": "تصفح أفضل الأعمال حسب التقييم والشعبية",
-    "en": "Browse top-rated and popular businesses"
-  },
-  "action": {
-    "label": {
-      "fa": "مشاهده همه کسب‌وکارها",
-      "ar": "عرض جميع الشركات",
-      "en": "View All Businesses"
-    },
-    "url": "/businesses"
-  },
-  "items": [
-    {
-      "title": {
-        "fa": "آژانس دیجیتال نیک‌وب",
-        "ar": "وكالة نيك‌وب الرقمية",
-        "en": "NikWeb Digital Agency"
-      },
-      "description": {
-        "fa": "ارائه خدمات طراحی سایت، سئو و تبلیغات گوگل",
-        "ar": "خدمات تصميم المواقع، تحسين محركات البحث، وإعلانات Google",
-        "en": "Website design, SEO, and Google Ads services"
-      },
-      "image": "/images/businesses/nikweb.jpg",
-      "label": {
-        "fa": "طراحی سایت",
-        "ar": "تصميم مواقع",
-        "en": "Web Design"
-      },
-      "url": "/businesses/nikweb",
-      "rate": 4.9,
-      "location": {
-        "fa": "تهران، ایران",
-        "ar": "طهران، إيران",
-        "en": "Tehran, Iran"
-      },
-      "isVerified": true,
-      "badges": [
+    "type": "business-list",
+    "template": "list-1",
+    "value": [
         {
-          "fa": "مورد تایید",
-          "ar": "موثوق",
-          "en": "Verified"
-        },
-        {
-          "fa": "فعال در سطح بین‌المللی",
-          "ar": "نشط دولياً",
-          "en": "Internationally Active"
+            "title": {
+                "fa": "کسب‌وکارهای پیشنهادی",
+                "ar": "الأعمال المقترحة",
+                "en": "Recommended Businesses"
+            },
+            "subtitle": {
+                "fa": "برترین کسب‌وکارها را بر اساس امتیاز و محبوبیت مرور کنید",
+                "ar": "تصفح أفضل الأعمال حسب التقييم والشعبية",
+                "en": "Browse top-rated and popular businesses"
+            },
+            "action": {
+                "label": {
+                    "fa": "مشاهده همه کسب‌وکارها",
+                    "ar": "عرض جميع الشركات",
+                    "en": "View All Businesses"
+                },
+                "url": "/businesses"
+            },
+            "items": [
+                {
+                    "title": {
+                        "fa": "آژانس دیجیتال نیک‌وب",
+                        "ar": "وكالة نيك‌وب الرقمية",
+                        "en": "NikWeb Digital Agency"
+                    },
+                    "description": {
+                        "fa": "ارائه خدمات طراحی سایت، سئو و تبلیغات گوگل",
+                        "ar": "خدمات تصميم المواقع، تحسين محركات البحث، وإعلانات Google",
+                        "en": "Website design, SEO, and Google Ads services"
+                    },
+                    "image": "/images/businesses/nikweb.jpg",
+                    "label": {
+                        "fa": "طراحی سایت",
+                        "ar": "تصميم مواقع",
+                        "en": "Web Design"
+                    },
+                    "url": "/businesses/nikweb",
+                    "rate": 4.9,
+                    "location": {
+                        "fa": "تهران، ایران",
+                        "ar": "طهران، إيران",
+                        "en": "Tehran, Iran"
+                    },
+                    "isVerified": true,
+                    "badges": [
+                        {
+                            "fa": "مورد تایید",
+                            "ar": "موثوق",
+                            "en": "Verified"
+                        },
+                        {
+                            "fa": "فعال در سطح بین‌المللی",
+                            "ar": "نشط دولياً",
+                            "en": "Internationally Active"
+                        }
+                    ],
+                    "action": {
+                        "label": {
+                            "fa": "جزئیات بیشتر",
+                            "ar": "تفاصيل أكثر",
+                            "en": "More Details"
+                        },
+                        "url": "/businesses/nikweb"
+                    }
+                }
+            ]
         }
-      ],
-      "action": {
-        "label": {
-          "fa": "جزئیات بیشتر",
-          "ar": "تفاصيل أكثر",
-          "en": "More Details"
-        },
-        "url": "/businesses/nikweb"
-      }
-    }
-  ]
+    ]
 }
 ```
 
@@ -435,65 +416,71 @@ icon: "globe"
 
 ```json
 {
-  "title": {
-    "fa": "محصولات ویژه",
-    "ar": "المنتجات المميزة",
-    "en": "Featured Products"
-  },
-  "subtitle": {
-    "fa": "برترین محصولات فروشگاه را اینجا ببینید",
-    "ar": "شاهد أفضل المنتجات في المتجر",
-    "en": "Check out the top products in the store"
-  },
-  "action": {
-    "label": {
-      "fa": "مشاهده همه محصولات",
-      "ar": "عرض جميع المنتجات",
-      "en": "View All Products"
-    },
-    "url": "/shop"
-  },
-  "items": [
-    {
-      "title": {
-        "fa": "هدفون بی‌سیم",
-        "ar": "سماعة رأس لاسلكية",
-        "en": "Wireless Headphones"
-      },
-      "description": {
-        "fa": "صدای با کیفیت و باتری قدرتمند",
-        "ar": "صوت عالي وبطارية قوية",
-        "en": "High-quality sound and powerful battery"
-      },
-      "image": "/images/products/headphones.jpg",
-      "label": {
-        "fa": "الکترونیک",
-        "ar": "إلكترونيات",
-        "en": "Electronics"
-      },
-      "url": "/products/wireless-headphones",
-      "price": {
-        "original": 1200000,
-        "discounted": 980000,
-        "currency": "IRR"
-      },
-      "availability": "in_stock",
-      "rate": 4.7,
-      "badge": {
-        "fa": "پرفروش",
-        "ar": "الأكثر مبيعًا",
-        "en": "Bestseller"
-      },
-      "action": {
-        "label": {
-          "fa": "افزودن به سبد",
-          "ar": "أضف إلى السلة",
-          "en": "Add to Cart"
-        },
-        "url": "/cart/add/wireless-headphones"
-      }
-    }
-  ]
+    "type": "blog-list",
+    "template": "list-1",
+    "value": [
+        {
+            "title": {
+                "fa": "محصولات ویژه",
+                "ar": "المنتجات المميزة",
+                "en": "Featured Products"
+            },
+            "subtitle": {
+                "fa": "برترین محصولات فروشگاه را اینجا ببینید",
+                "ar": "شاهد أفضل المنتجات في المتجر",
+                "en": "Check out the top products in the store"
+            },
+            "action": {
+                "label": {
+                    "fa": "مشاهده همه محصولات",
+                    "ar": "عرض جميع المنتجات",
+                    "en": "View All Products"
+                },
+                "url": "/shop"
+            },
+            "items": [
+                {
+                    "title": {
+                        "fa": "هدفون بی‌سیم",
+                        "ar": "سماعة رأس لاسلكية",
+                        "en": "Wireless Headphones"
+                    },
+                    "description": {
+                        "fa": "صدای با کیفیت و باتری قدرتمند",
+                        "ar": "صوت عالي وبطارية قوية",
+                        "en": "High-quality sound and powerful battery"
+                    },
+                    "image": "/images/products/headphones.jpg",
+                    "label": {
+                        "fa": "الکترونیک",
+                        "ar": "إلكترونيات",
+                        "en": "Electronics"
+                    },
+                    "url": "/products/wireless-headphones",
+                    "price": {
+                        "original": 1200000,
+                        "discounted": 980000,
+                        "currency": "IRR"
+                    },
+                    "availability": "in_stock",
+                    "rate": 4.7,
+                    "badge": {
+                        "fa": "پرفروش",
+                        "ar": "الأكثر مبيعًا",
+                        "en": "Bestseller"
+                    },
+                    "action": {
+                        "label": {
+                            "fa": "افزودن به سبد",
+                            "ar": "أضف إلى السلة",
+                            "en": "Add to Cart"
+                        },
+                        "url": "/cart/add/wireless-headphones"
+                    }
+                }
+            ]
+        }
+    ]
 }
 ```
 
@@ -508,64 +495,70 @@ icon: "globe"
 
 ```json
 {
-  "title": {
-    "fa": "آخرین مطالب وبلاگ",
-    "ar": "أحدث مقالات المدونة",
-    "en": "Latest Blog Posts"
-  },
-  "subtitle": {
-    "fa": "مطالب مفید و به‌روز در زمینه‌های مختلف",
-    "ar": "مقالات مفيدة ومحدثة في مجالات متنوعة",
-    "en": "Helpful and updated articles on various topics"
-  },
-  "action": {
-    "label": {
-      "fa": "مشاهده همه مقالات",
-      "ar": "عرض جميع المقالات",
-      "en": "View All Articles"
-    },
-    "url": "/blog"
-  },
-  "items": [
-    {
-      "title": {
-        "fa": "۵ نکته برای بازاریابی موفق",
-        "ar": "٥ نصائح للتسويق الناجح",
-        "en": "5 Tips for Successful Marketing"
-      },
-      "description": {
-        "fa": "در این مقاله با تکنیک‌هایی برای بازاریابی حرفه‌ای آشنا می‌شوید.",
-        "ar": "في هذا المقال نتعرف على تقنيات التسويق الاحترافية.",
-        "en": "This article introduces professional marketing techniques."
-      },
-      "image": "/images/blog/marketing-tips.jpg",
-      "label": {
-        "fa": "بازاریابی",
-        "ar": "تسويق",
-        "en": "Marketing"
-      },
-      "url": "/blog/5-tips-marketing",
-      "author": {
-        "name": "محمد رضایی",
-        "avatar": "/images/authors/m-rezaei.jpg"
-      },
-      "date": "2025-04-10",
-      "readingTime": {
-        "fa": "۴ دقیقه",
-        "ar": "٤ دقائق",
-        "en": "4 min read"
-      },
-      "rate": 4.6,
-      "action": {
-        "label": {
-          "fa": "ادامه مطلب",
-          "ar": "اقرأ المزيد",
-          "en": "Read More"
-        },
-        "url": "/blog/5-tips-marketing"
-      }
-    }
-  ]
+    "type": "blog-list",
+    "template": "list-1",
+    "value": [
+        {
+            "title": {
+                "fa": "آخرین مطالب وبلاگ",
+                "ar": "أحدث مقالات المدونة",
+                "en": "Latest Blog Posts"
+            },
+            "subtitle": {
+                "fa": "مطالب مفید و به‌روز در زمینه‌های مختلف",
+                "ar": "مقالات مفيدة ومحدثة في مجالات متنوعة",
+                "en": "Helpful and updated articles on various topics"
+            },
+            "action": {
+                "label": {
+                    "fa": "مشاهده همه مقالات",
+                    "ar": "عرض جميع المقالات",
+                    "en": "View All Articles"
+                },
+                "url": "/blog"
+            },
+            "items": [
+                {
+                    "title": {
+                        "fa": "۵ نکته برای بازاریابی موفق",
+                        "ar": "٥ نصائح للتسويق الناجح",
+                        "en": "5 Tips for Successful Marketing"
+                    },
+                    "description": {
+                        "fa": "در این مقاله با تکنیک‌هایی برای بازاریابی حرفه‌ای آشنا می‌شوید.",
+                        "ar": "في هذا المقال نتعرف على تقنيات التسويق الاحترافية.",
+                        "en": "This article introduces professional marketing techniques."
+                    },
+                    "image": "/images/blog/marketing-tips.jpg",
+                    "label": {
+                        "fa": "بازاریابی",
+                        "ar": "تسويق",
+                        "en": "Marketing"
+                    },
+                    "url": "/blog/5-tips-marketing",
+                    "author": {
+                        "name": "محمد رضایی",
+                        "avatar": "/images/authors/m-rezaei.jpg"
+                    },
+                    "date": "2025-04-10",
+                    "readingTime": {
+                        "fa": "۴ دقیقه",
+                        "ar": "٤ دقائق",
+                        "en": "4 min read"
+                    },
+                    "rate": 4.6,
+                    "action": {
+                        "label": {
+                            "fa": "ادامه مطلب",
+                            "ar": "اقرأ المزيد",
+                            "en": "Read More"
+                        },
+                        "url": "/blog/5-tips-marketing"
+                    }
+                }
+            ]
+        }
+    ]
 }
 ```
 

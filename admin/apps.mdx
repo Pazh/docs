@@ -244,333 +244,168 @@ icon: "globe"
 }
 ```
 
-## Hero Sections
+## Componenets
 
 Content
 
 ```json [expandable]
-{
-    "id": "XXXXXXXXXXXX",
-    "type": "contenBuilder"
-}
-```
-
-### Image
-
-```json [expandable]
-{
-  "type": "hero-image",
-  "value": [
-    {
-      "title": {
-        "fa": "زیبایی لبخند شما، تخصص ماست",
-        "en": "Your Smile, Our Expertise",
-        "ar": "ابتسامتك، خبرتنا"
-      },
-      "subtitle": {
-        "fa": "کلینیک دندانپزشکی کاخ با بهره‌گیری از جدیدترین تکنولوژی‌ها آماده خدمت‌رسانی است.",
-        "en": "Palace Dental Clinic offers the latest dental technologies and top-tier care.",
-        "ar": "عيادة قصر تقدم أحدث تقنيات طب الأسنان وأفضل رعاية."
-      },
-      "button": {
-        "content": {
-          "fa": "مشاهده خدمات",
-          "en": "View Services",
-          "ar": "عرض الخدمات"
-        },
-        "link": "/services"
-      },
-      "src":"https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-      "styles": {
-        "textColor": "#ffffff",
-        "buttonBackgroundColor": "#FF5722",
-        "buttonTextColor": "#ffffff",  
-        "overlay": true,
-        "alignment": "bottom-center",
-		"textAlignment": "right"
-      }
-    }
-  ]
-}
-```
-
-### Grid Box
-
-```json [expandable]
-{
-    "type": "grid-box",
-    "template": "grid-1",
-    "value": [
+[
+    [
         {
-            "title": "خدمات ما",
-            "subtitle": "با خدمات متنوع ما آشنا شوید",
-            "button": {
-                "text": "همه",
-                "link": "/services"
-            },
-            "cards": [
-                {
-                    "title": "طراحی سایت",
-                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-                    "link": "/services/web-design"
+            "type": "hero-image",
+            "template": "hero-image-1",
+            "value": {
+                "src": "https://s2.webstatic.net/business/kakh-dental-clinic-0a2/1744881455845e87-1200x800.webp",
+                "title": {
+                    "ar": "ابتسامتك، خبرتنا",
+                    "en": "Your Smile, Our Expertise",
+                    "fa": "زیبایی لبخند شما، تخصص ماست"
                 },
-                {
-                    "title": "سئو و بهینه‌سازی",
-                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-                    "link": "/services/seo"
+                "button": {
+                    "link": "/appointments",
+                    "content": {
+                        "ar": "عرض الخدمات",
+                        "en": "View Services",
+                        "fa": "مشاهده خدمات"
+                    }
                 },
-                {
-                    "title": "تولید محتوا",
-                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-                    "link": "/services/content"
+                "styles": {
+                    "overlay": true,
+                    "alignment": "bottom-left",
+                    "textColor": "#ffffff",
+                    "textCenter": false,
+                    "buttonTextColor": "#ffffff",
+                    "buttonBackgroundColor": "#007bff"
+                },
+                "subtitle": {
+                    "ar": "عيادة قصر تقدم أحدث تقنيات طب الأسنان وأفضل رعاية.",
+                    "en": "Palace Dental Clinic offers the latest dental technologies and top-tier care.",
+                    "fa": "کلینیک دندانپزشکی کاخ با بهره‌گیری از جدیدترین تکنولوژی‌ها آماده خدمت‌رسانی است."
                 }
-            ]
-        }
-    ]
-}
-```
-
-### Business List
-
-```json [expandable]
-{
-    "type": "business-list",
-    "value": [
+            }
+        },
         {
-            "title": {
-                "fa": "کسب‌وکارهای پیشنهادی",
-                "ar": "الأعمال المقترحة",
-                "en": "Recommended Businesses"
-            },
-            "subtitle": {
-                "fa": "برترین کسب‌وکارها را بر اساس امتیاز و محبوبیت مرور کنید",
-                "ar": "تصفح أفضل الأعمال حسب التقييم والشعبية",
-                "en": "Browse top-rated and popular businesses"
-            },
-            "action": {
-                "label": {
-                    "fa": "مشاهده همه کسب‌وکارها",
-                    "ar": "عرض جميع الشركات",
-                    "en": "View All Businesses"
-                },
-                "url": "/businesses"
-            },
-            "items": [
+            "type": "grid-box",
+            "template": "grid-1",
+            "value": [
                 {
-                    "title": {
-                        "fa": "آژانس دیجیتال نیک‌وب",
-                        "ar": "وكالة نيك‌وب الرقمية",
-                        "en": "NikWeb Digital Agency"
-                    },
-                    "description": {
-                        "fa": "ارائه خدمات طراحی سایت، سئو و تبلیغات گوگل",
-                        "ar": "خدمات تصميم المواقع، تحسين محركات البحث، وإعلانات Google",
-                        "en": "Website design, SEO, and Google Ads services"
-                    },
-                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-                    "label": {
-                        "fa": "طراحی سایت",
-                        "ar": "تصميم مواقع",
-                        "en": "Web Design"
-                    },
-                    "url": "/businesses/nikweb",
-                    "rate": 4.9,
-                    "location": {
-                        "fa": "تهران، ایران",
-                        "ar": "طهران، إيران",
-                        "en": "Tehran, Iran"
-                    },
-                    "isVerified": true,
-                    "badges": [
+                    "cards": [
                         {
-                            "fa": "مورد تایید",
-                            "ar": "موثوق",
-                            "en": "Verified"
+                            "link": "/services/web-design",
+                            "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
+                            "title": {
+                                "ar": "تصميم المواقع",
+                                "en": "Web Design",
+                                "fa": "طراحی سایت"
+                            }
                         },
                         {
-                            "fa": "فعال در سطح بین‌المللی",
-                            "ar": "نشط دولياً",
-                            "en": "Internationally Active"
+                            "link": "/services/seo",
+                            "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
+                            "title": {
+                                "ar": "تحسين محركات البحث",
+                                "en": "SEO and Optimization",
+                                "fa": "سئو و بهینه‌سازی"
+                            }
+                        },
+                        {
+                            "link": "/services/content",
+                            "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
+                            "title": {
+                                "ar": "إنشاء المحتوى",
+                                "en": "Content Creation",
+                                "fa": "تولید محتوا"
+                            }
                         }
                     ],
-                    "action": {
-                        "label": {
-                            "fa": "جزئیات بیشتر",
-                            "ar": "تفاصيل أكثر",
-                            "en": "More Details"
-                        },
-                        "url": "/businesses/nikweb"
-                    }
-                }
-            ]
-        }
-    ]
-}
-```
-
-| فیلد         | توضیح                                                           |
-| :----------- | :-------------------------------------------------------------- |
-| `location`   | موقعیت جغرافیایی (چندزبانه)                                     |
-| `isVerified` | آیا کسب‌وکار تأییدشده است؟                                      |
-| `badges`     | لیبل‌های خاص مثل "دارای مجوز"، "نماد اعتماد"، "فعال بین‌المللی" |
-| `rate`       | امتیاز کاربران                                                  |
-| `label`      | حوزه فعالیت (دسته‌بندی اصلی)                                    |
-
-### Product List
-
-```json [expandable]
-{
-    "type": "blog-list",
-    "template": "list-1",
-    "value": [
-        {
-            "title": {
-                "fa": "محصولات ویژه",
-                "ar": "المنتجات المميزة",
-                "en": "Featured Products"
-            },
-            "subtitle": {
-                "fa": "برترین محصولات فروشگاه را اینجا ببینید",
-                "ar": "شاهد أفضل المنتجات في المتجر",
-                "en": "Check out the top products in the store"
-            },
-            "action": {
-                "label": {
-                    "fa": "مشاهده همه محصولات",
-                    "ar": "عرض جميع المنتجات",
-                    "en": "View All Products"
-                },
-                "url": "/shop"
-            },
-            "items": [
-                {
                     "title": {
-                        "fa": "هدفون بی‌سیم",
-                        "ar": "سماعة رأس لاسلكية",
-                        "en": "Wireless Headphones"
+                        "ar": "خدماتنا",
+                        "en": "Our Services",
+                        "fa": "خدمات ما"
                     },
-                    "description": {
-                        "fa": "صدای با کیفیت و باتری قدرتمند",
-                        "ar": "صوت عالي وبطارية قوية",
-                        "en": "High-quality sound and powerful battery"
+                    "button": {
+                        "link": "/services",
+                        "text": {
+                            "ar": "الكل",
+                            "en": "All",
+                            "fa": "همه"
+                        }
                     },
-                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-                    "label": {
-                        "fa": "الکترونیک",
-                        "ar": "إلكترونيات",
-                        "en": "Electronics"
-                    },
-                    "url": "/products/wireless-headphones",
-                    "price": {
-                        "original": 1200000,
-                        "discounted": 980000,
-                        "currency": "IRR"
-                    },
-                    "availability": "in_stock",
-                    "rate": 4.7,
-                    "badge": {
-                        "fa": "پرفروش",
-                        "ar": "الأكثر مبيعًا",
-                        "en": "Bestseller"
-                    },
-                    "action": {
-                        "label": {
-                            "fa": "افزودن به سبد",
-                            "ar": "أضف إلى السلة",
-                            "en": "Add to Cart"
-                        },
-                        "url": "/cart/add/wireless-headphones"
+                    "subtitle": {
+                        "ar": "تعرف على خدماتنا المتنوعة",
+                        "en": "Get to know our various services",
+                        "fa": "با خدمات متنوع ما آشنا شوید"
                     }
                 }
-            ]
-        }
-    ]
-}
-```
-
-| فیلد           | توضیح                                                   |
-| :------------- | :------------------------------------------------------ |
-| `price`        | شامل قیمت اصلی، تخفیف‌خورده، و ارز                      |
-| `availability` | مقدارهایی مثل `in_stock`، `out_of_stock`، `coming_soon` |
-| `badge`        | یک لیبل خاص مثل "جدید"، "تخفیف‌دار"، "پرفروش"           |
-| `action.url`   | لینک اضافه‌کردن به سبد یا مشاهده محصول                  |
-
-### Blog List
-
-```json [expandable]
-{
-    "type": "blog-list",
-    "template": "list-1",
-    "value": [
+            ],
+            "active": true
+        },
         {
-            "title": {
-                "fa": "آخرین مطالب وبلاگ",
-                "ar": "أحدث مقالات المدونة",
-                "en": "Latest Blog Posts"
-            },
-            "subtitle": {
-                "fa": "مطالب مفید و به‌روز در زمینه‌های مختلف",
-                "ar": "مقالات مفيدة ومحدثة في مجالات متنوعة",
-                "en": "Helpful and updated articles on various topics"
-            },
-            "action": {
-                "label": {
-                    "fa": "مشاهده همه مقالات",
-                    "ar": "عرض جميع المقالات",
-                    "en": "View All Articles"
+            "type": "contenBuilder",
+            "targetId": "XXXXXXXXXXXX",
+            "lang": "en",
+            "active": true
+        },
+        {
+            "type": "blog-list",
+            "template": "blog-list-1",
+            "filter": {
+                "type": "post",
+                "filter": {
+                    "tag": [
+                        "XXXXXXXXXXXX",
+                        "XXXXXXXXXXXX"
+                    ],
+                    "category": [
+                        "XXXXXXXXXXXX",
+                        "XXXXXXXXXXXX"
+                    ],
+                    "author": [
+                        "XXXXXXXXXXXX",
+                        "XXXXXXXXXXXX"
+                    ],
+                    "mode": "and"
                 },
-                "url": "/blog"
+                "values": [
+                    "XXXXXXXXXXXX",
+                    "XXXXXXXXXXXX"
+                ],
+                "limit": 5,
+                "sort": "date",
+                "order": "desc"
             },
-            "items": [
-                {
-                    "title": {
-                        "fa": "۵ نکته برای بازاریابی موفق",
-                        "ar": "٥ نصائح للتسويق الناجح",
-                        "en": "5 Tips for Successful Marketing"
-                    },
-                    "description": {
-                        "fa": "در این مقاله با تکنیک‌هایی برای بازاریابی حرفه‌ای آشنا می‌شوید.",
-                        "ar": "في هذا المقال نتعرف على تقنيات التسويق الاحترافية.",
-                        "en": "This article introduces professional marketing techniques."
-                    },
-                    "image": "https://s2.webstatic.net/business/eram-restaurant-669/17369238276593f0-1200x800.webp",
-                    "label": {
-                        "fa": "بازاریابی",
-                        "ar": "تسويق",
-                        "en": "Marketing"
-                    },
-                    "url": "/blog/5-tips-marketing",
-                    "author": {
-                        "name": "محمد رضایی",
-                        "avatar": "https://s2.webstatic.net/business/eram-restaurant-669/1736241263941203-512x512.webp"
-                    },
-                    "date": "2025-04-10",
-                    "readingTime": {
-                        "fa": "۴ دقیقه",
-                        "ar": "٤ دقائق",
-                        "en": "4 min read"
-                    },
-                    "rate": 4.6,
-                    "action": {
-                        "label": {
-                            "fa": "ادامه مطلب",
-                            "ar": "اقرأ المزيد",
-                            "en": "Read More"
-                        },
-                        "url": "/blog/5-tips-marketing"
-                    }
-                }
-            ]
+            "active": true
+        },
+        {
+            "type": "product-list",
+            "template": "product-list-1",
+            "filter": {
+                "type": "product",
+                "filter": {
+                    "tag": [
+                        "XXXXXXXXXXXX",
+                        "XXXXXXXXXXXX"
+                    ],
+                    "category": [
+                        "XXXXXXXXXXXX",
+                        "XXXXXXXXXXXX"
+                    ],
+                    "author": [
+                        "XXXXXXXXXXXX",
+                        "XXXXXXXXXXXX"
+                    ],
+                    "mode": "and"
+                },
+                "values": [
+                    "XXXXXXXXXXXX",
+                    "XXXXXXXXXXXX"
+                ],
+                "limit": 5,
+                "sort": "date",
+                "order": "desc"
+            },
+            "active": true
         }
     ]
-}
+]
 ```
-
-| فیلد          | توضیح                                |
-| :------------ | :----------------------------------- |
-| `author`      | شامل نام و آواتار نویسنده            |
-| `date`        | تاریخ انتشار                         |
-| `readingTime` | زمان تقریبی مطالعه به زبان‌های مختلف |
-| `tags`        | آرایه‌ای از برچسب‌ها                 |
-| `label`       | دسته‌بندی اصلی مقاله                 |
-| `action`      | دکمه‌ی ورود به صفحه پست کامل         |
